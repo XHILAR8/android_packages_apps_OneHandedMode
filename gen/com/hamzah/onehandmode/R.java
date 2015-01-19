@@ -41,7 +41,6 @@ public final class R {
         public static final int button5=0x7f090012;
         public static final int button6=0x7f090013;
         public static final int button7=0x7f090015;
-        public static final int dpi_option=0x7f090025;
         public static final int leaveActionbar=0x7f09000f;
         public static final int left_margin=0x7f090005;
         public static final int left_margin_NC=0x7f090018;
@@ -67,10 +66,10 @@ public final class R {
         public static final int top_margin_NC=0x7f090019;
         public static final int transparent_notification=0x7f090020;
         public static final int welcome=0x7f090011;
-        public static final int widget_toggle_NC=0x7f090027;
-        public static final int widget_toggle_app=0x7f090026;
+        public static final int widget_toggle_NC=0x7f090026;
+        public static final int widget_toggle_app=0x7f090025;
         public static final int widget_toggle_apps=0x7f09001e;
-        public static final int widget_toggle_both=0x7f090028;
+        public static final int widget_toggle_both=0x7f090027;
     }
     public static final class layout {
         public static final int activity_about=0x7f030000;
@@ -101,7 +100,6 @@ public final class R {
         public static final int bottom=0x7f060012;
         public static final int bottom_margin=0x7f06000e;
         public static final int buyPrem=0x7f060021;
-        public static final int dpi_info=0x7f06002f;
         public static final int email=0x7f06001f;
         public static final int generate_log=0x7f060020;
         /**  help and about 

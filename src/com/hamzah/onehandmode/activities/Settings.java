@@ -7,7 +7,6 @@ import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
-import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -20,7 +19,6 @@ public class Settings extends OHMActivity {
 	CheckBox CB_show_notification, CB_show_toast, CB_transparent_notification,
 			CB_show_overlay;
 	Spinner spinner_toggle_option, spinner_overlay_colour;
-	EditText ET_dpi;
 
 	SharedPreferences pref;
 
@@ -40,8 +38,6 @@ public class Settings extends OHMActivity {
 		spinner_toggle_option = (Spinner) findViewById(R.id.toggle_activity_option);
 		spinner_overlay_colour = (Spinner) findViewById(R.id.overlay_colour);
 
-		ET_dpi = (EditText) findViewById(R.id.dpi_option);
-
 		loadPreviousSettings();
 	}
 	
@@ -53,7 +49,6 @@ public class Settings extends OHMActivity {
     	editor.putBoolean(Keys.SHOW_OVERLAY, CB_show_overlay.isChecked());
     	editor.putInt(Keys.DEFAULT_TOGGLE, spinner_toggle_option.getSelectedItemPosition());
 		editor.putString(Keys.OVERLAY_COLOR, HexFromID(spinner_overlay_colour.getSelectedItemPosition()));
-		editor.putInt(Keys.REDUCE_DPI, Integer.parseInt(ET_dpi.getText().toString()));
     	editor.apply();
     	
     	Toast.makeText(this, "Saved!", Toast.LENGTH_SHORT).show();
@@ -108,7 +103,6 @@ public class Settings extends OHMActivity {
     	CB_transparent_notification.setChecked(pref.getBoolean(Keys.TRANSPARENT_NOTIFICATION, false));
     	CB_show_overlay.setChecked(pref.getBoolean(Keys.SHOW_OVERLAY, false));
     	spinner_toggle_option.setSelection(pref.getInt(Keys.DEFAULT_TOGGLE, 2));
-    	ET_dpi.setText("" + pref.getInt(Keys.REDUCE_DPI, 0));
 	}
 	
     public static void initNotification(Context context){		

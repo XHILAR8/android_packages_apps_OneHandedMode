@@ -97,6 +97,4 @@
 
     <string name="show_overlay">Show solid background around apps once shrunk</string>
 
-    <string name="dpi_info">You can enter a DPI value to be used while in onehandmode or enter 0 to use normal DPI</string>
-
 </resources>

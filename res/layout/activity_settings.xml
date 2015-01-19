@@ -49,23 +49,6 @@
         android:entries="@array/toggle_option"
         android:prompt="@string/activity_toggle_option" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/dpi_info"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <EditText
-        android:id="@+id/dpi_option"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="number" >
-
-        <requestFocus />
-    </EditText>
-
     <Button
         android:id="@+id/apply_settings"
         android:layout_width="wrap_content"
