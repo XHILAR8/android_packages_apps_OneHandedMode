@@ -11,7 +11,6 @@ public final class R {
     public static final class array {
         public static final int colours=0x7f070002;
         /**  arrays 
- arrays 
          */
         public static final int presets=0x7f070000;
         public static final int toggle_option=0x7f070001;
@@ -85,7 +84,6 @@ public final class R {
     public static final class string {
         public static final int KeepActionbar=0x7f060014;
         /**  options 
- options 
          */
         public static final int NotificationOption=0x7f060013;
         public static final int Presets_info=0x7f060029;
@@ -93,7 +91,6 @@ public final class R {
         public static final int about=0x7f06002d;
         public static final int activity_toggle_option=0x7f060018;
         /**  titles 
- titles 
          */
         public static final int app_name=0x7f060000;
         public static final int apply=0x7f06001c;
@@ -103,28 +100,23 @@ public final class R {
         public static final int email=0x7f06001f;
         public static final int generate_log=0x7f060020;
         /**  help and about 
- help and about 
          */
         public static final int help=0x7f06002c;
         /**  info and welcomes 
- info and welcomes 
          */
         public static final int info=0x7f060025;
         public static final int info_notificationCenter=0x7f06002a;
         public static final int left=0x7f06000f;
         /**  margins 
- margins 
          */
         public static final int left_margin=0x7f06000b;
         /**  masters 
- masters 
          */
         public static final int master_switch=0x7f060008;
         public static final int master_switch_NC=0x7f06000a;
         public static final int master_switch_apps=0x7f060009;
         public static final int moveNotif=0x7f060017;
         /**  menu items and actions 
- menu items and actions
          */
         public static final int report=0x7f060019;
         public static final int report_info=0x7f060027;
@@ -143,7 +135,6 @@ public final class R {
         public static final int title_activity_settings=0x7f060004;
         public static final int toggle_NC=0x7f060023;
         /**  toggle names 
- toggle names 
          */
         public static final int toggle_apps=0x7f060022;
         public static final int toggle_both=0x7f060024;
