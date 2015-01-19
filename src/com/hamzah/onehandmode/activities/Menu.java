@@ -14,7 +14,7 @@ public class Menu extends OHMActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_menu);
 		Settings.initNotification(this);
-		this.getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+		this.getActionBar().setDisplayHomeAsUpEnabled(false);
 	}
 
 	public void apps(View v) {

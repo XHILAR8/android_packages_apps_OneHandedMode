@@ -1,16 +1,16 @@
 package com.hamzah.onehandmode.activities;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 
-public class OHMActivity extends ActionBarActivity{
+public class OHMActivity extends Activity{
 
 	@Override
 	protected void onCreate(Bundle b){
 		super.onCreate(b);
-		this.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		this.getActionBar().setDisplayHomeAsUpEnabled(true);
 	}
 	
 	@Override
