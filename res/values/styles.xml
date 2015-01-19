@@ -1,23 +1,18 @@
 <resources>
 
-   <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
-        <item name = "android:actionBarStyle">@style/actionbar</item>
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
         <item name="android:colorPrimaryDark">#512DA8</item>
         <item name="android:colorPrimary">#5E35B1</item>
         <item name="android:colorAccent">#5E35B1</item>
     </style>
-    
-    <style name="actionbar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">#5E35B1</item>
-    </style>
 
-  <style name="Theme.Transparent" parent="android:Theme">
-    <item name="android:windowIsTranslucent">true</item>
-    <item name="android:windowBackground">@android:color/transparent</item>
-    <item name="android:windowContentOverlay">@null</item>
-    <item name="android:windowNoTitle">true</item>
-    <item name="android:windowIsFloating">true</item>
-    <item name="android:backgroundDimEnabled">false</item>
-  </style>
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
 
 </resources>
